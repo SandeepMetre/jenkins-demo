@@ -1,0 +1,32 @@
+version: "3"
+services:
+  springBootApp:
+    image: sandeepmetre423/bank-application:1.1
+    container_name: docker-casestudy-springboot-app
+    environment:
+      - POSTGRES_HOST=docker-casestudy-springboot-db
+    ports:
+      - "8088:8083"
+    networks:
+      - network
+    depends_on:
+      - postgresDb
+    restart: on-failure
+
+  postgresDb:
+    image: postgres:13.2
+    container_name: docker-casestudy-springboot-db
+    ports:
+      - "5434:5432"
+    networks:
+      - network
+    volumes:
+      - volume:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=1234
+      - POSTGRES_DB=testdb
+networks:
+  network:
+volumes:
+  volume:

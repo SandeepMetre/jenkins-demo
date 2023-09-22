@@ -1,0 +1,561 @@
+failed to get console mode for stdout: The handle is invalid.
+[1A[1B[0G[?25l[+] Running 1/0
+ [32m✔[0m Network bankapplication_network           [32mCreated[0m[34m0.0s [0m
+ - Container docker-casestudy-springboot-db  Creating[34m0.0s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Network bankapplication_network            [32mCreated[0m[34m0.0s [0m
+ [32m✔[0m Container docker-casestudy-springboot-db   [32mCreated[0m[34m0.1s [0m
+ - Container docker-casestudy-springboot-app  Creating[34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+ [32m✔[0m Network bankapplication_network            [32mCreated[0m[34m0.0s [0m
+ [32m✔[0m Container docker-casestudy-springboot-db   [32mCreated[0m[34m0.1s [0m
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mCreated[0m[34m0.1s [0m
+[?25hAttaching to docker-casestudy-springboot-app, docker-casestudy-springboot-db
+docker-casestudy-springboot-db   | 
+docker-casestudy-springboot-db   | PostgreSQL Database directory appears to contain a database; Skipping initialization
+docker-casestudy-springboot-db   | 
+docker-casestudy-springboot-db   | 
+docker-casestudy-springboot-app  | 
+docker-casestudy-springboot-app  |   .   ____          _            __ _ _
+docker-casestudy-springboot-app  |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+docker-casestudy-springboot-app  | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+docker-casestudy-springboot-app  |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+docker-casestudy-springboot-app  |   '  |____| .__|_| |_|_| |_\__, | / / / /
+docker-casestudy-springboot-app  |  =========|_|==============|___/=/_/_/_/
+docker-casestudy-springboot-app  | 
+docker-casestudy-springboot-app  |  :: Spring Boot ::                (v3.1.3)
+docker-casestudy-springboot-app  | 
+docker-casestudy-springboot-app  | 
+docker-casestudy-springboot-app  | 2023-09-21T07:24:05.619Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : Starting Demo1Application v0.0.1-SNAPSHOT using Java 20 with PID 1 (/app.jar started by root in /)
+docker-casestudy-springboot-app  | 2023-09-21T07:24:05.620Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+docker-casestudy-springboot-app  | 2023-09-21T07:24:06.391Z  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+docker-casestudy-springboot-app  | 2023-09-21T07:24:06.468Z  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.123Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.137Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.138Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.255Z  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.256Z  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1583 ms
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.420Z  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.481Z  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.483Z  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.622Z  INFO 1 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.767Z  INFO 1 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.783Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.931Z  INFO 1 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@41382722
+docker-casestudy-springboot-app  | 2023-09-21T07:24:07.933Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+docker-casestudy-springboot-app  | 2023-09-21T07:24:08.203Z  INFO 1 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+docker-casestudy-springboot-app  | 2023-09-21T07:24:08.821Z  INFO 1 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+docker-casestudy-springboot-app  | 2023-09-21T07:24:08.896Z  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+docker-casestudy-springboot-app  | 2023-09-21T07:24:09.173Z  WARN 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+docker-casestudy-springboot-app  | 2023-09-21T07:24:09.503Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+docker-casestudy-springboot-app  | 2023-09-21T07:24:09.515Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : Started Demo1Application in 4.305 seconds (process running for 4.743)
+magical_northcutt                | 
+magical_northcutt                |   .   ____          _            __ _ _
+magical_northcutt                | 
+magical_northcutt                |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+magical_northcutt                | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+magical_northcutt                |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+magical_northcutt                |   '  |____| .__|_| |_|_| |_\__, | / / / /
+magical_northcutt                |  =========|_|==============|___/=/_/_/_/
+magical_northcutt                |  :: Spring Boot ::                (v3.1.3)
+magical_northcutt                | 
+magical_northcutt                | 
+magical_northcutt                | 2023-09-21T07:25:53.842Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : Starting Demo1Application v0.0.1-SNAPSHOT using Java 20 with PID 1 (/app.jar started by root in /)
+magical_northcutt                | 2023-09-21T07:25:53.844Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+magical_northcutt                | 2023-09-21T07:25:54.529Z  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+magical_northcutt                | 2023-09-21T07:25:54.581Z  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interfaces.
+magical_northcutt                | 2023-09-21T07:25:55.141Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+magical_northcutt                | 2023-09-21T07:25:55.151Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+magical_northcutt                | 2023-09-21T07:25:55.151Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+magical_northcutt                | 2023-09-21T07:25:55.226Z  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+magical_northcutt                | 2023-09-21T07:25:55.227Z  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1330 ms
+magical_northcutt                | 2023-09-21T07:25:55.379Z  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+magical_northcutt                | 2023-09-21T07:25:55.443Z  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+magical_northcutt                | 2023-09-21T07:25:55.446Z  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+magical_northcutt                | 2023-09-21T07:25:55.577Z  INFO 1 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+magical_northcutt                | 2023-09-21T07:25:55.717Z  INFO 1 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+magical_northcutt                | 2023-09-21T07:25:55.734Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+magical_northcutt                | 2023-09-21T07:26:00.694Z ERROR 1 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+magical_northcutt                | 
+magical_northcutt                | org.postgresql.util.PSQLException: The connection attempt failed.
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:354) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:316) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at com.example.demo.Demo1Application.main(Demo1Application.java:10) ~[classes!/:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+magical_northcutt                | 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+magical_northcutt                | 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:95) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | Caused by: java.net.UnknownHostException: docker-casestudy-springboot-db
+magical_northcutt                | 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:560) ~[na:na]
+magical_northcutt                | 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+magical_northcutt                | 	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+magical_northcutt                | 	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	... 54 common frames omitted
+magical_northcutt                | 
+magical_northcutt                | 
+magical_northcutt                | 2023-09-21T07:26:00.703Z  WARN 1 --- [           main] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000342: Could not obtain connection to query metadata
+magical_northcutt                | 
+magical_northcutt                | org.postgresql.util.PSQLException: The connection attempt failed.
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:354) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:316) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:152) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:34) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:119) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:239) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:216) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.model.relational.Database.<init>(Database.java:45) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.getDatabase(InFlightMetadataCollectorImpl.java:230) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:198) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:166) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1380) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1451) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at com.example.demo.Demo1Application.main(Demo1Application.java:10) ~[classes!/:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+magical_northcutt                | 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+magical_northcutt                | 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:95) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | Caused by: java.net.UnknownHostException: docker-casestudy-springboot-db
+magical_northcutt                | 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:560) ~[na:na]
+magical_northcutt                | 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+magical_northcutt                | 	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+magical_northcutt                | 	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	... 54 common frames omitted
+magical_northcutt                | 
+magical_northcutt                | 
+magical_northcutt                | 2023-09-21T07:26:00.917Z  INFO 1 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+magical_northcutt                | 2023-09-21T07:26:01.455Z  INFO 1 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+magical_northcutt                | 2023-09-21T07:26:01.472Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+magical_northcutt                | 2023-09-21T07:26:02.474Z ERROR 1 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Exception during pool initialization.
+magical_northcutt                | 
+magical_northcutt                | org.postgresql.util.PSQLException: The connection attempt failed.
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:354) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:316) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:187) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:98) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+magical_northcutt                | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:292) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:431) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1455) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at com.example.demo.Demo1Application.main(Demo1Application.java:10) ~[classes!/:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+magical_northcutt                | 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+magical_northcutt                | 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:95) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | Caused by: java.net.UnknownHostException: docker-casestudy-springboot-db
+magical_northcutt                | 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:560) ~[na:na]
+magical_northcutt                | 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+magical_northcutt                | 	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+magical_northcutt                | 	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	... 60 common frames omitted
+magical_northcutt                | 
+magical_northcutt                | 
+magical_northcutt                | 2023-09-21T07:26:02.485Z  WARN 1 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 0, SQLState: 08001
+magical_northcutt                | 2023-09-21T07:26:02.486Z ERROR 1 --- [           main] o.h.engine.jdbc.spi.SqlExceptionHelper   : The connection attempt failed.
+magical_northcutt                | 2023-09-21T07:26:02.501Z ERROR 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Failed to initialize JPA EntityManagerFactory: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+magical_northcutt                | 2023-09-21T07:26:02.502Z  WARN 1 --- [           main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+magical_northcutt                | 2023-09-21T07:26:02.505Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+magical_northcutt                | 2023-09-21T07:26:02.521Z  INFO 1 --- [           main] .s.b.a.l.ConditionEvaluationReportLogger : 
+magical_northcutt                | 
+magical_northcutt                | Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+magical_northcutt                | 
+magical_northcutt                | 2023-09-21T07:26:02.538Z ERROR 1 --- [           main] o.s.boot.SpringApplication               : Application run failed
+magical_northcutt                | 
+magical_northcutt                | org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:598) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:326) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:324) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1155) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608) ~[spring-context-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:436) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:312) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-3.1.3.jar!/:3.1.3]
+magical_northcutt                | 	at com.example.demo.Demo1Application.main(Demo1Application.java:10) ~[classes!/:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+magical_northcutt                | 	at java.base/java.lang.reflect.Method.invoke(Method.java:578) ~[na:na]
+magical_northcutt                | 	at org.springframework.boot.loader.MainMethodRunner.run(MainMethodRunner.java:49) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:95) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.Launcher.launch(Launcher.java:58) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | 	at org.springframework.boot.loader.JarLauncher.main(JarLauncher.java:65) ~[app.jar:0.0.1-SNAPSHOT]
+magical_northcutt                | Caused by: jakarta.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+magical_northcutt                | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:421) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:352) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1817) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1766) ~[spring-beans-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	... 22 common frames omitted
+magical_northcutt                | Caused by: org.hibernate.exception.JDBCConnectionException: Unable to open JDBC Connection for DDL execution [The connection attempt failed.] [n/a]
+magical_northcutt                | 	at org.hibernate.exception.internal.SQLStateConversionDelegate.convert(SQLStateConversionDelegate.java:98) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:56) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:108) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:94) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:74) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:39) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.internal.exec.ImprovedExtractionContextImpl.getJdbcConnection(ImprovedExtractionContextImpl.java:63) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.extract.spi.ExtractionContext.getQueryResults(ExtractionContext.java:43) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.extract.internal.SequenceInformationExtractorLegacyImpl.extractMetadata(SequenceInformationExtractorLegacyImpl.java:39) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.initializeSequences(DatabaseInformationImpl.java:66) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.extract.internal.DatabaseInformationImpl.<init>(DatabaseInformationImpl.java:60) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.internal.Helper.buildDatabaseInformation(Helper.java:187) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:98) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:284) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.lambda$process$5(SchemaManagementToolCoordinator.java:143) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at java.base/java.util.HashMap.forEach(HashMap.java:1429) ~[na:na]
+magical_northcutt                | 	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:140) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.internal.SessionFactoryObserverForSchemaExport.sessionFactoryCreated(SessionFactoryObserverForSchemaExport.java:37) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.internal.SessionFactoryObserverChain.sessionFactoryCreated(SessionFactoryObserverChain.java:35) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:292) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:431) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1455) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:75) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:376) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409) ~[spring-orm-6.0.11.jar!/:6.0.11]
+magical_northcutt                | 	... 26 common frames omitted
+magical_northcutt                | Caused by: org.postgresql.util.PSQLException: The connection attempt failed.
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:354) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:263) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.Driver.makeConnection(Driver.java:443) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.Driver.connect(Driver.java:297) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112) ~[HikariCP-5.0.1.jar!/:na]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:316) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	at org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection(DdlTransactionIsolatorNonJtaImpl.java:46) ~[hibernate-core-6.2.7.Final.jar!/:6.2.7.Final]
+magical_northcutt                | 	... 46 common frames omitted
+magical_northcutt                | Caused by: java.net.UnknownHostException: docker-casestudy-springboot-db
+magical_northcutt                | 	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:560) ~[na:na]
+magical_northcutt                | 	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[na:na]
+magical_northcutt                | 	at java.base/java.net.Socket.connect(Socket.java:666) ~[na:na]
+magical_northcutt                | 	at org.postgresql.core.PGStream.createSocket(PGStream.java:243) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.PGStream.<init>(PGStream.java:98) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:132) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:258) ~[postgresql-42.6.0.jar!/:42.6.0]
+magical_northcutt                | 	... 60 common frames omitted
+magical_northcutt                | 
+magical_northcutt                | 
+magical_northcutt exited with code 1
+magical_northcutt                | 
+magical_northcutt                |   .   ____          _            __ _ _
+magical_northcutt                |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+magical_northcutt                | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+magical_northcutt                |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+magical_northcutt                |   '  |____| .__|_| |_|_| |_\__, | / / / /
+magical_northcutt                |  =========|_|==============|___/=/_/_/_/
+magical_northcutt                | 
+magical_northcutt                |  :: Spring Boot ::                (v3.1.3)
+magical_northcutt                | 
+magical_northcutt                | 
+magical_northcutt                | 2023-09-21T07:28:52.072Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : Starting Demo1Application v0.0.1-SNAPSHOT using Java 20 with PID 1 (/app.jar started by root in /)
+magical_northcutt                | 2023-09-21T07:28:52.075Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+magical_northcutt                | 2023-09-21T07:28:52.866Z  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+magical_northcutt                | 2023-09-21T07:28:52.917Z  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interfaces.
+magical_northcutt                | 2023-09-21T07:28:53.458Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+magical_northcutt                | 2023-09-21T07:28:53.472Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+magical_northcutt                | 2023-09-21T07:28:53.472Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+magical_northcutt                | 2023-09-21T07:28:53.603Z  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+magical_northcutt                | 2023-09-21T07:28:53.604Z  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1476 ms
+magical_northcutt                | 2023-09-21T07:28:53.840Z  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+magical_northcutt                | 2023-09-21T07:28:53.917Z  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+magical_northcutt                | 2023-09-21T07:28:53.919Z  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+magical_northcutt                | 2023-09-21T07:28:54.053Z  INFO 1 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+magical_northcutt                | 2023-09-21T07:28:54.278Z  INFO 1 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+magical_northcutt                | 2023-09-21T07:28:54.321Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+magical_northcutt                | 2023-09-21T07:28:54.526Z  INFO 1 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@41382722
+magical_northcutt                | 2023-09-21T07:28:54.529Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+magical_northcutt                | 2023-09-21T07:28:54.884Z  INFO 1 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+magical_northcutt                | 2023-09-21T07:28:55.487Z  INFO 1 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+magical_northcutt                | 2023-09-21T07:28:55.532Z  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+magical_northcutt                | 2023-09-21T07:28:55.804Z  WARN 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+magical_northcutt                | 2023-09-21T07:28:56.176Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+magical_northcutt                | 2023-09-21T07:28:56.189Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : Started Demo1Application in 4.493 seconds (process running for 4.998)
+magical_northcutt                | 2023-09-21T07:29:13.692Z  INFO 1 --- [nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+magical_northcutt                | 2023-09-21T07:29:13.692Z  INFO 1 --- [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+magical_northcutt                | 2023-09-21T07:29:13.695Z  INFO 1 --- [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+docker-casestudy-springboot-app  | 2023-09-21T07:29:20.744Z  INFO 1 --- [nio-8083-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+docker-casestudy-springboot-app  | 2023-09-21T07:29:20.745Z  INFO 1 --- [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+docker-casestudy-springboot-app  | 2023-09-21T07:29:20.749Z  INFO 1 --- [nio-8083-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+magical_northcutt                | 2023-09-21T09:19:45.362Z  INFO 1 --- [ionShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+magical_northcutt                | 2023-09-21T09:19:45.377Z  INFO 1 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+magical_northcutt                | 2023-09-21T09:19:45.387Z  INFO 1 --- [ionShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+magical_northcutt exited with code 0
+magical_northcutt exited with code 143
+magical_northcutt                | 
+magical_northcutt                |   .   ____          _            __ _ _
+magical_northcutt                | 
+magical_northcutt                |  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+magical_northcutt                | ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+magical_northcutt                |  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+magical_northcutt                |   '  |____| .__|_| |_|_| |_\__, | / / / /
+magical_northcutt                |  =========|_|==============|___/=/_/_/_/
+magical_northcutt                |  :: Spring Boot ::                (v3.1.3)
+magical_northcutt                | 
+magical_northcutt                | 
+magical_northcutt                | 2023-09-21T09:22:12.422Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : Starting Demo1Application v0.0.1-SNAPSHOT using Java 20 with PID 1 (/app.jar started by root in /)
+magical_northcutt                | 2023-09-21T09:22:12.425Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : No active profile set, falling back to 1 default profile: "default"
+magical_northcutt                | 2023-09-21T09:22:13.801Z  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+magical_northcutt                | 2023-09-21T09:22:13.861Z  INFO 1 --- [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interfaces.
+magical_northcutt                | 2023-09-21T09:22:14.436Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8083 (http)
+magical_northcutt                | 2023-09-21T09:22:14.448Z  INFO 1 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+magical_northcutt                | 2023-09-21T09:22:14.448Z  INFO 1 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.12]
+magical_northcutt                | 2023-09-21T09:22:14.523Z  INFO 1 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+magical_northcutt                | 2023-09-21T09:22:14.524Z  INFO 1 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2027 ms
+magical_northcutt                | 2023-09-21T09:22:14.714Z  INFO 1 --- [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+magical_northcutt                | 2023-09-21T09:22:14.788Z  INFO 1 --- [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.7.Final
+magical_northcutt                | 2023-09-21T09:22:14.792Z  INFO 1 --- [           main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+magical_northcutt                | 2023-09-21T09:22:14.949Z  INFO 1 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+magical_northcutt                | 2023-09-21T09:22:15.125Z  INFO 1 --- [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+magical_northcutt                | 2023-09-21T09:22:15.149Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+magical_northcutt                | 2023-09-21T09:22:15.358Z  INFO 1 --- [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@41382722
+magical_northcutt                | 2023-09-21T09:22:15.361Z  INFO 1 --- [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+magical_northcutt                | 2023-09-21T09:22:15.639Z  INFO 1 --- [           main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+magical_northcutt                | 2023-09-21T09:22:16.257Z  INFO 1 --- [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+magical_northcutt                | 2023-09-21T09:22:16.322Z  INFO 1 --- [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+magical_northcutt                | 2023-09-21T09:22:16.601Z  WARN 1 --- [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+magical_northcutt                | 2023-09-21T09:22:16.980Z  INFO 1 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8083 (http) with context path ''
+magical_northcutt                | 2023-09-21T09:22:16.990Z  INFO 1 --- [           main] com.example.demo.Demo1Application        : Started Demo1Application in 5.061 seconds (process running for 5.674)
+failed to get console mode for stdout: The handle is invalid.
+failed to get console mode for stdout: The handle is invalid.
+[1A[1B[0G[?25l[+] Stopping 0/0
+ - Container docker-casestudy-springboot-app  Stopping[34m0.1s [0m
+ - Container magical_northcutt                Stopping[34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m0.2s [0m
+ - Container magical_northcutt                Stopping[34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m0.3s [0m
+ - Container magical_northcutt                Stopping[34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m0.4s [0m
+ - Container magical_northcutt                Stopping[34m0.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m0.5s [0m
+ - Container magical_northcutt                Stopping[34m0.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m0.6s [0m
+ - Container magical_northcutt                Stopping[34m0.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m0.7s [0m
+ - Container magical_northcutt                Stopping[34m0.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m0.8s [0m
+ - Container magical_northcutt                Stopping[34m0.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m0.9s [0m
+ - Container magical_northcutt                Stopping[34m0.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m1.0s [0m
+ - Container magical_northcutt                Stopping[34m1.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m1.1s [0m
+ - Container magical_northcutt                Stopping[34m1.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m1.2s [0m
+ - Container magical_northcutt                Stopping[34m1.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m1.3s [0m
+ - Container magical_northcutt                Stopping[34m1.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m1.4s [0m
+ - Container magical_northcutt                Stopping[34m1.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 0/2
+ - Container docker-casestudy-springboot-app  Stopping[34m1.5s [0m
+ - Container magical_northcutt                Stopping[34m1.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 1/2
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ - Container magical_northcutt                Stopping[34m1.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 1/2
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ - Container magical_northcutt                Stopping[34m1.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 1/2
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ - Container magical_northcutt                Stopping[34m1.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 1/2
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ - Container magical_northcutt                Stopping[34m1.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Stopping 1/2
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ - Container magical_northcutt                Stopping[34m2.0s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Stopping 2/2[0m
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ [32m✔[0m Container magical_northcutt                [32mStopped[0m[34m2.0s [0m
+ - Container docker-casestudy-springboot-db   Stopping[34m0.1s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Stopping 2/3
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ [32m✔[0m Container magical_northcutt                [32mStopped[0m[34m2.0s [0m
+ - Container docker-casestudy-springboot-db   Stopping[34m0.2s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Stopping 2/3
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ [32m✔[0m Container magical_northcutt                [32mStopped[0m[34m2.0s [0m
+ - Container docker-casestudy-springboot-db   Stopping[34m0.3s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Stopping 2/3
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ [32m✔[0m Container magical_northcutt                [32mStopped[0m[34m2.0s [0m
+ - Container docker-casestudy-springboot-db   Stopping[34m0.4s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Stopping 2/3
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ [32m✔[0m Container magical_northcutt                [32mStopped[0m[34m2.0s [0m
+ - Container docker-casestudy-springboot-db   Stopping[34m0.5s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[+] Stopping 2/3
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ [32m✔[0m Container magical_northcutt                [32mStopped[0m[34m2.0s [0m
+ - Container docker-casestudy-springboot-db   Stopping[34m0.6s [0m
+[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Stopping 3/3[0m
+ [32m✔[0m Container docker-casestudy-springboot-app  [32mStopped[0m[34m1.5s [0m
+ [32m✔[0m Container magical_northcutt                [32mStopped[0m[34m2.0s [0m
+ [32m✔[0m Container docker-casestudy-springboot-db   [32mStopped[0m[34m0.7s [0m
+[?25h

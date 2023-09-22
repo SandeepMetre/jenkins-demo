@@ -1,0 +1,92 @@
+[
+    {
+        "Id": "sha256:2d164ea63d63bf5b4f5ebd95adb82d409dd31880cf1c3f87ec252dae18c9cd41",
+        "RepoTags": [
+            "bankapplication:latest",
+            "sandeepmetre423/bank-application:1.1"
+        ],
+        "RepoDigests": [
+            "sandeepmetre423/bank-application@sha256:d1f3d7cf01c8b3b541915a716d428129308f1d1c6291a1c0c56a3432139e392f"
+        ],
+        "Parent": "",
+        "Comment": "buildkit.dockerfile.v0",
+        "Created": "2023-09-20T09:11:13.269441341Z",
+        "Container": "",
+        "ContainerConfig": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": null,
+            "Cmd": null,
+            "Image": "",
+            "Volumes": null,
+            "WorkingDir": "",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": null
+        },
+        "DockerVersion": "",
+        "Author": "",
+        "Config": {
+            "Hostname": "",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": false,
+            "AttachStderr": false,
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/java/openjdk-20/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "JAVA_HOME=/usr/java/openjdk-20",
+                "LANG=C.UTF-8",
+                "JAVA_VERSION=20"
+            ],
+            "Cmd": null,
+            "Image": "",
+            "Volumes": {
+                "/temp": {}
+            },
+            "WorkingDir": "",
+            "Entrypoint": [
+                "java",
+                "-jar",
+                "app.jar"
+            ],
+            "OnBuild": null,
+            "Labels": null
+        },
+        "Architecture": "amd64",
+        "Os": "linux",
+        "Size": 538293956,
+        "VirtualSize": 538293956,
+        "GraphDriver": {
+            "Data": {
+                "LowerDir": "/var/lib/docker/overlay2/fb4e0d9ce028fcce2f0da89c515220887cb945f9c396cf85b98aa9c4ca51f562/diff:/var/lib/docker/overlay2/f6ac5224dd8207673a75287ad78f711d840a54664f38f3e7e2da010b1ff4b666/diff:/var/lib/docker/overlay2/ccaf8e1cc773c87041ee10a1d1a4d001bff494747b0d86c54d23ea339cd6cbad/diff",
+                "MergedDir": "/var/lib/docker/overlay2/usj19dabyylndffn7araho5ma/merged",
+                "UpperDir": "/var/lib/docker/overlay2/usj19dabyylndffn7araho5ma/diff",
+                "WorkDir": "/var/lib/docker/overlay2/usj19dabyylndffn7araho5ma/work"
+            },
+            "Name": "overlay2"
+        },
+        "RootFS": {
+            "Type": "layers",
+            "Layers": [
+                "sha256:8ac0706b4707318d0286b0c3c60212c2fe438993078473d7bc30340b0bce5456",
+                "sha256:8a23e35cbbf75219e8e4e3d4c3ed81c5c8c3813afcdeec18b804d4d20acffdf6",
+                "sha256:502a9a9bb6ccd96a3865a30e929ebb828ab7570a5c382460c1e609db8cbb4a3c",
+                "sha256:3f2c66cb16bb929ffadd73cf880696ea0c33c6f07e93996c4a5637453ce1f137"
+            ]
+        },
+        "Metadata": {
+            "LastTagTime": "2023-09-20T09:31:31.806675111Z"
+        }
+    }
+]
